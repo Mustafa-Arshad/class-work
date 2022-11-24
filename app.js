@@ -1,25 +1,23 @@
-// var a = "Karachi";
+//   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ Topic: Changing Case ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
+// Task : 1.
+// var a = prompt("Enter Any Word, We Convert it into UPPERCASE");
+// var b = a.toUpperCase();
+// document.write(b);
 
-// var firstletter = a.slice(0, 1)
-// var othertletter = a.slice(1)
+// Task : 2.
+// var input = prompt("Enter Any Word, We Convert it into TitleCase")
+// var firstLetter = input.slice(0, 1);
+// var otherLetters = input.slice(1);
+// input = firstLetter.toUpperCase() + otherLetters.toLowerCase();
+// document.write(input);
 
-// a = firstletter.toUpperCase() + othertletter.toLowerCase();
-// console.log(a)
+//   ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ Topic: Strings: measuring length and extracting parts ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬//
+// Task : 1.
+// var mobile = prompt("Enter Your Favorite Mobile Phone Model");
+// var length = mobile.length;
+// document.write(length);
 
- var a ="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam placeat minus perferendis non dolore ratione sunt dignissimos. Dicta neque, voluptate voluptatem, quos nostrum quidem fugit dolore tempore quisquam perferendis nisi Sed, enim, reiciendis ipsa officia exercitationem rerum eligendi adipisci sapiente ut hic debitis sequi in nemo ducimus dolorum suscipit autem id repudiandae omnis laboriosam soluta. Porro cumque blanditiis excepturi tenetur"
-
- var b ="amet"
-
- for(i = 0; i < a.length; i++){
-    var word = a.slice(i, i + 4);
- }
- if(word == b){
-    console.log("found", word);
-    console.log(i);
-
-    var starttingletters = a.slice(0, i);
-    var myword ="ametment";
-    var starttingletters = a.slice(i, 4);
-    
-    a = starttingletters + myword + otherlatters;
- }
+// Task : 2.
+// var str1 = prompt("Enter Your Favorite Mobile Phone Model");
+// var str2 = str1.charAt(str1.length-1);
+// document.write(str2)
